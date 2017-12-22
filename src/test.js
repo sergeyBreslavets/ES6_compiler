@@ -1,5 +1,7 @@
 export class a {
-    constructor() {}
+    constructor() {
+        this.z = 5;
+    }
     zlo() {
         console.log("123123");
     }
