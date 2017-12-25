@@ -3,6 +3,6 @@ export class a {
         this.z = 5;
     }
     zlo() {
-        console.log("123123");
-    }
+        console.log "123123");
+}
 }

@@ -68,35 +68,10 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var a = exports.a = function () {
-    function a() {
-        _classCallCheck(this, a);
-
-        this.z = 5;
-    }
-
-    _createClass(a, [{
-        key: "zlo",
-        value: function zlo() {
-            console.log("123123");
-        }
-    }]);
-
-    return a;
-}();
+throw new Error("Module build failed: SyntaxError: C:/OSPanel/domains/js_mod/src/test.js: Unexpected token, expected ; (6:20)\n\n\u001b[0m \u001b[90m 4 | \u001b[39m    }\n \u001b[90m 5 | \u001b[39m    zlo() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 | \u001b[39m        console\u001b[33m.\u001b[39mlog \u001b[32m\"123123\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 | \u001b[39m}\n \u001b[90m 8 | \u001b[39m}\u001b[0m\n");
 
 /***/ }),
 /* 1 */
